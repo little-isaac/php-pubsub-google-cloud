@@ -1,16 +1,16 @@
 {
-  "name": "superbalist/php-pubsub-google-cloud",
+  "name": "milind/php-pubsub-google-cloud",
   "description": "A Google Cloud adapter for the php-pubsub package",
   "license": "MIT",
   "authors": [
     {
-      "name": "Superbalist.com a division of Takealot Online (Pty) Ltd",
-      "email": "info@superbalist.com"
+      "name": "Milind",
+      "email": "milind@getflits.com"
     }
   ],
   "require": {
     "php": ">=5.6.0",
-    "superbalist/php-pubsub": "^2.0",
+    "milind/php-pubsub": "^2.0",
     "google/cloud": "^0.95.0"
   },
   "autoload": {
