@@ -1,12 +1,12 @@
 <?php
 
-namespace Superbalist\PubSub\GoogleCloud;
+namespace milind\PubSub\GoogleCloud;
 
 use Google\Cloud\PubSub\Message;
 use Google\Cloud\PubSub\PubSubClient;
 use Google\Cloud\PubSub\Subscription;
-use Superbalist\PubSub\PubSubAdapterInterface;
-use Superbalist\PubSub\Utils;
+use milind\PubSub\PubSubAdapterInterface;
+use milind\PubSub\Utils;
 
 class GoogleCloudPubSubAdapter implements PubSubAdapterInterface
 {

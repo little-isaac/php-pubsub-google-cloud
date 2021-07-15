@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Superbalist\\PubSub\\GoogleCloud\\": "src/",
+      "milind\\PubSub\\GoogleCloud\\": "src/",
       "Tests\\": "tests/"
     }
   },

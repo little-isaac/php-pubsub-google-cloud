@@ -9,7 +9,7 @@ use Google\Cloud\PubSub\Subscription;
 use Google\Cloud\PubSub\Topic;
 use Mockery;
 use PHPUnit\Framework\TestCase;
-use Superbalist\PubSub\GoogleCloud\GoogleCloudPubSubAdapter;
+use milind\PubSub\GoogleCloud\GoogleCloudPubSubAdapter;
 
 class GoogleCloudPubSubAdapterTest extends TestCase
 {

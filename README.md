@@ -1,18 +1,18 @@
 # php-pubsub-google-cloud
 
-A Google Cloud adapter for the [php-pubsub](https://github.com/Superbalist/php-pubsub) package.
+A Google Cloud adapter for the [php-pubsub](https://github.com/milind/php-pubsub) package.
 
-[![Author](http://img.shields.io/badge/author-@superbalist-blue.svg?style=flat-square)](https://twitter.com/superbalist)
-[![Build Status](https://img.shields.io/travis/Superbalist/php-pubsub-google-cloud/master.svg?style=flat-square)](https://travis-ci.org/Superbalist/php-pubsub-google-cloud)
+[![Author](http://img.shields.io/badge/author-@milind-blue.svg?style=flat-square)](https://twitter.com/milind)
+[![Build Status](https://img.shields.io/travis/milind/php-pubsub-google-cloud/master.svg?style=flat-square)](https://travis-ci.org/milind/php-pubsub-google-cloud)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Packagist Version](https://img.shields.io/packagist/v/superbalist/php-pubsub-google-cloud.svg?style=flat-square)](https://packagist.org/packages/superbalist/php-pubsub-google-cloud)
-[![Total Downloads](https://img.shields.io/packagist/dt/superbalist/php-pubsub-google-cloud.svg?style=flat-square)](https://packagist.org/packages/superbalist/php-pubsub-google-cloud)
+[![Packagist Version](https://img.shields.io/packagist/v/milind/php-pubsub-google-cloud.svg?style=flat-square)](https://packagist.org/packages/milind/php-pubsub-google-cloud)
+[![Total Downloads](https://img.shields.io/packagist/dt/milind/php-pubsub-google-cloud.svg?style=flat-square)](https://packagist.org/packages/milind/php-pubsub-google-cloud)
 
 
 ## Installation
 
 ```bash
-composer require superbalist/php-pubsub-google-cloud
+composer require milind/php-pubsub-google-cloud
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ $client = new \Google\Cloud\PubSub\PubSubClient([
     'projectId' => 'your-project-id-here',
 ]);
 
-$adapter = new \Superbalist\PubSub\GoogleCloud\GoogleCloudPubSubAdapter($client);
+$adapter = new \milind\PubSub\GoogleCloud\GoogleCloudPubSubAdapter($client);
 
 
 // disable auto topic & subscription creation

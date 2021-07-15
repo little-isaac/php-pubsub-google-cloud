@@ -8,7 +8,7 @@ $client = new \Google\Cloud\PubSub\PubSubClient([
     'projectId' => 'your-project-id-here',
 ]);
 
-$adapter = new \Superbalist\PubSub\GoogleCloud\GoogleCloudPubSubAdapter($client);
+$adapter = new \milind\PubSub\GoogleCloud\GoogleCloudPubSubAdapter($client);
 
 $adapter->subscribe('my_channel', function ($message) {
     var_dump($message);
