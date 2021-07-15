@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": ">=8.0",
-    "milind/php-pubsub": "^3.0",
+    "milind/php-pubsub": "dev-master",
     "google/cloud-pubsub": "^1.31"
   },
   "autoload": {
